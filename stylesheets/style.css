@@ -1,0 +1,9 @@
+body {
+  background-color: lightgray;
+}
+
+header {
+  color: teal;
+  margin: 20px;
+  font-size: 20px;
+}
