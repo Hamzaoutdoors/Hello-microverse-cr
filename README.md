@@ -1,65 +1,69 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Hello Microverse
 
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
+> A basic "Hello Microverse" page that illustrate the use of tools and best practices for future Microverse projects.
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Linters
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link - coming soon]()
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
+- Node and NPM
+- Web browser (Google chrome)
+- Code Editor (VSCode)
 
-### Install
+### Development (Running locally)
 
-### Usage
+- Clone the project
 
-### Run tests
+```bash
+git clone https://github.com/Hamzaoutdoors/hello-microverse-cr.git
 
-### Deployment
+```
 
+To run StyleLint by itself, you may run the lint task:
 
+```bash
+npx stylelint "**/*.{css,scss}"
+```
 
-## Authors
+Or to automatically fix issues found (where possible):
 
-👤 **Author1**
+```bash
+npx stylelint "**/*.{css,scss}" --fix
+```
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+You can also check against Webhint:
 
-👤 **Author2**
+```bash
+npx hint --telemetry=off .
+```
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+## 👤 Author
+
+- Github: [@Hamzaoutdoors](https://github.com/Hamzaoutdoors)
+- Twitter: [@ellaouzihamza]()
+- Linkedin: [@Hamza Ellaouzi](edin.com/in/hamza-ellaouzi-137a45b8/)
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](../../issues).
 
 ## Show your support
 
@@ -68,9 +72,9 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- Inspiration
+- Inspiration, resources/assets used
 - etc
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+[MIT licensed](./LICENSE).
